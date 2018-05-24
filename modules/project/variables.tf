@@ -5,7 +5,3 @@ variable "project_name" {
 variable "project_id" {
   description = "Google cloud project ID"
 }
-
-variable "org_id" {
-  description = "Google cloud organization ID"
-}
