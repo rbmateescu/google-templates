@@ -23,7 +23,7 @@
        }
     },
     "metadata": {
-      "displayName": "Google Cloud Project Example",
+      "displayName": "Google Cloud Project",
       "providerDisplayName": "Google Cloud",
       "longDescription": "Example template to provision a project in Google Compute Engine.",
       "bullets": [
