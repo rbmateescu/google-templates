@@ -1,11 +1,11 @@
 variable "project_name" {
-  descriptiom = "Google cloud project name"
+  description = "Google cloud project name"
 }
 
 variable "project_id" {
-  descriptiom = "Google cloud project ID"
+  description = "Google cloud project ID"
 }
 
 variable "org_id" {
-  descriptiom = "Google cloud organization ID"
+  description = "Google cloud organization ID"
 }
