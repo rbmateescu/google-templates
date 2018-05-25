@@ -1,12 +1,12 @@
 
 output "Name" {
-  value = "${module.tangerine_instance.google_compute_instance.default.name}"
+  value = "${module.tangerine_instance.Name}"
 }
 
 output "External_IP" {
-  value = "${module.tangerine_instance.google_compute_instance.default.network_interface.0.access_config.0.assigned_nat_ip}"
+  value = "${module.tangerine_instance.External_IP}"
 }
 
 output "Internal_IP" {
-  value = "${module.tangerine_instance.google_compute_instance.default.network_interface.0.address}"
+  value = "${module.tangerine_instance.Internal_IP}"
 }
