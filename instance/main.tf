@@ -8,4 +8,5 @@ module "tangerine_instance" {
   machine_type = "${var.machine_type}"
   boot_disk = "${var.boot_disk}"
   zone = "${var.zone}"
+  public_ssh_key = "${var.public_ssh_key}"
 }
