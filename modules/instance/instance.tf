@@ -15,4 +15,7 @@ resource "google_compute_instance" "default" {
       // Ephemeral IP
     }
   }
+  metadata {
+    ssh-keys = "${var.public_ssh_key}"
+  }
 }

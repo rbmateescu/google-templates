@@ -16,3 +16,7 @@ variable "zone" {
   description = "The zone the resource should be created in."
   default = "us-central1-a"
 }
+
+variable "public_ssh_key" {
+  description = "Public SSH key used to connect to the VM"
+}

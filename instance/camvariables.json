@@ -112,6 +112,16 @@
         "label": "zone",
         "hidden": false,
         "immutable": false
+      },
+      {
+        "name": "public_ssh_key",
+        "description": "Public SSH key",
+        "type": "string",
+        "required": true,
+        "secured": false,
+        "label": "public_ssh_key",
+        "hidden": false,
+        "immutable": false
       }
     ],
     "template_output_params": [
