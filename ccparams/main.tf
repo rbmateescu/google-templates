@@ -4,6 +4,6 @@ provider "google" {
 
 resource "null_resource" "test" {
   provisioner "local-exec" {
-    command = "echo $GOOGLE_CREDENTIALS" 
+    command = "jq --raw-output .project_id $GOOGLE_CREDENTIALS" 
   }
 }
