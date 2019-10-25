@@ -8,6 +8,6 @@ data "external" "project_id" {
 
 resource "null_resource" "create-endpoint" {
   provisioner "local-exec" {
-    command = "/home/terraform/.local/lib/aws/bin/aws --version "
+    command = "aws --version "
   }
 }
